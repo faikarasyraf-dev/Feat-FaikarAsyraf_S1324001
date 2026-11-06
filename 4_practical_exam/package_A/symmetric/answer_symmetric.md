@@ -3,6 +3,9 @@
 ## 1. Finding
 _NONCE ditetapkan tetap, lalu dipakai kembali oleh encrypt() pada baris 22 dengan kunci yang sama. Penggunaan ulang nonce AES-GCM membuat enkripsi rentan terhadap kebocoran hubungan antar-plaintext; jika penyerang mengetahui satu plaintext, ia dapat memulihkan plaintext lain dari ciphertext yang nonce-nya sama.
 
+report monday  : EXAM-SYM-A|warehouse=Bekasi|item=pump|quantity=0120
+report tuesday : EXAM-SYM-A|warehouse=Bekasi|item=valve|quantity=0075
+
 ## 2. Evidence
 
 import os
